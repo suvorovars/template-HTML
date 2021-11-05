@@ -16,10 +16,5 @@ def index():
     return render_template('templates/index.html')
 
 
-@app.errorhandler()
-def not_found(error):
-    return 'error'
-
-
 if __name__ == '__main__':
     main()
